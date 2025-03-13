@@ -1,6 +1,12 @@
-// 안녕하십니까 저는 퍼스트클래스
 #include <stdio.h>
 
-int main(void){
-  printf("첫?");
+int main() {
+  int a, b;
+  while(1) {
+    if (scanf("%d %d", &a, &b) == EOF)
+      break;
+    printf("%d", a + b);
+  }
+
+  return 0;
 }
