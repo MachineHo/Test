@@ -6,6 +6,4 @@ int main(void) {
   if(1) {
     printf("Hi World");
   }
-
-  return 0;
 }
